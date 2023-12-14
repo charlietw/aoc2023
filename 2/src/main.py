@@ -2,6 +2,7 @@ from src.Game import Game
 
 FILENAME = "input.txt"
 
+
 def get_id(input):
     words = input.split()
     id = words[1][:-1]
@@ -15,6 +16,7 @@ def get_rounds(input):
     for section in rounds:
         formatted_rounds.append(section.strip())
     return formatted_rounds
+
 
 def main():
     result = 0
@@ -31,5 +33,5 @@ def main():
     print(result)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

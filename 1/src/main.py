@@ -1,5 +1,6 @@
 FILENAME = "input.txt"
 
+
 def get_digit(character):
     try:
         return int(character)
