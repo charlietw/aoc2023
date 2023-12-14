@@ -1,10 +1,5 @@
 FILENAME = "input.txt"
 
-
-def open_file():
-    return f
-
-
 def get_digit(character):
     try:
         return int(character)
